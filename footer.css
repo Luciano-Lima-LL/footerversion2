@@ -1,0 +1,253 @@
+.div {
+    background-color: var(--dark-gray, #1f1f1f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 76px 80px 26px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding: 0 20px;
+    }
+  }
+  .div-2 {
+    width: 100%;
+    max-width: 1240px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .div-3 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 37%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    color: var(--white, #fff);
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      margin-top: 40px;
+    }
+  }
+  .div-5 {
+    display: flex;
+    gap: 8px;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 33px;
+    align-self: start;
+  }
+  .div-6 {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .div-7 {
+    margin-top: 43px;
+    font: 400 16px/26px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      margin-top: 40px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 5.88;
+    object-fit: auto;
+    object-position: center;
+    width: 124px;
+    margin-top: 47px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .img-2 {
+      margin-top: 40px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 63%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-8 {
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-9 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-10 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: var(--white, #fff);
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      margin-top: 40px;
+    }
+  }
+  .div-11 {
+    font: 600 18px Inter, sans-serif;
+  }
+  .div-12 {
+    margin-top: 41px;
+    font: 400 16px/38px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      margin-top: 40px;
+    }
+  }
+  .column-4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+  .div-13 {
+    display: flex;
+    flex-direction: column;
+    color: var(--white, #fff);
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-14 {
+    font: 600 18px Inter, sans-serif;
+  }
+  .div-15 {
+    margin-top: 41px;
+    font: 400 16px/38px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      margin-top: 40px;
+    }
+  }
+  .column-5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-5 {
+      width: 100%;
+    }
+  }
+  .div-16 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--white, #fff);
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin-top: 40px;
+    }
+  }
+  .div-17 {
+    font: 600 18px Inter, sans-serif;
+  }
+  .div-18 {
+    font-family: Inter, sans-serif;
+    line-height: 26px;
+    margin-top: 39px;
+  }
+  .div-19 {
+    font-family: Inter, sans-serif;
+    line-height: 162.5%;
+    margin-top: 24px;
+  }
+  .div-20 {
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 47px;
+    width: 1240px;
+    max-width: 100%;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-20 {
+      margin-top: 40px;
+    }
+  }
+  .div-21 {
+    color: var(--white, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    margin-top: 30px;
+    font: 400 13px/185% Inter, sans-serif;
+  }
